@@ -11,7 +11,7 @@ html {
 
 body {
         background-color: #fcfdff;
-        color: #304050;
+        color: #404448;
         margin: 0;
         padding: 0;
         font-size: 1rem;
@@ -21,10 +21,6 @@ body {
 }
 
 h1, h2 {
-        font-weight: 500;
-}
-
-h1, h2, h3 {
         color: #000;
         line-height: 1;
         margin: 0;
@@ -38,22 +34,19 @@ h2 {
         font-size: 2rem;
 }
 
-h3 {
-        font-size: 1.3rem;
-}
-
 a {
         text-decoration: none;
+        color: #000;
 }
 
 a:hover {
-        color: #000;
+        color: #096784
 }
-        
+     
 p {
         margin: 1em 0;
 }
-        
+
 .flex {
         width: 640px;
         margin: 0 auto;
@@ -61,7 +54,6 @@ p {
 }
 
 #title {
-        color: #000;
         float: left;
 }
 
@@ -73,11 +65,18 @@ p {
         background-color: #62D9FF;
         padding: 0.45em 0.9em;
         border-radius: 10em;
-        color: #000;
 }
 
 #intro {
-        margin: 3em 0;
+        margin: 4em 0;
+}
+
+.heading {
+        background-color: #62D9FF;
+        padding: 1em;
+        width: 100%;
+        border-radius: 0.5em;
+        font-size: 1.3em;
 }
  
 @media print, screen and (max-width: 640px) {
