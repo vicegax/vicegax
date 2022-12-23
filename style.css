@@ -1,0 +1,80 @@
+*, :after, :before {
+        box-sizing: border-box
+}
+
+html {
+        font-family: 'Rokkitt', serif;
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+}
+
+body {
+        background-color: #f6fafe;
+        color: #233649;
+        margin: 0;
+        padding: 0;
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 1.4;
+        text-align: left;
+}
+
+h1, h2 {
+        font-weight: 500;
+}
+
+h1, h2, h3 {
+        color: #000;
+        line-height: 1;
+        margin: 0;
+}
+
+h1 {
+        font-size: 3rem;
+}
+
+h2 {
+        font-size: 2rem;
+}
+
+h3 {
+        font-size: 1.3rem;
+}
+
+a {
+        color: #000;
+        text-decoration: none;
+}
+
+a:hover {
+        color: #000;
+}
+        
+p {
+        margin: 1em 0;
+}
+        
+.flex {
+        width: 640px;
+        margin: 0 auto;
+        padding: 20px;
+}
+ 
+@media print, screen and (max-width: 640px) {
+        body {
+            word-wrap: break-word;
+        }
+        
+        .content {
+            width: auto;
+            margin: 0;
+        }
+}
+        
+@media print {
+        body {
+            padding: 0.4in;
+            font-size: 12pt;
+        }
+}
