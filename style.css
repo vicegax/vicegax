@@ -10,11 +10,11 @@ html {
 }
 
 body {
-        background-color: #f6fafe;
-        color: #233649;
+        background-color: #fcfdff;
+        color: #304050;
         margin: 0;
         padding: 0;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 400;
         line-height: 1.4;
         text-align: left;
@@ -43,7 +43,6 @@ h3 {
 }
 
 a {
-        color: #000;
         text-decoration: none;
 }
 
@@ -59,6 +58,26 @@ p {
         width: 640px;
         margin: 0 auto;
         padding: 20px;
+}
+
+#title {
+        color: #000;
+        float: left;
+}
+
+#menu {
+        float: right;       
+}
+
+#menu a {
+        background-color: #62D9FF;
+        padding: 0.45em 0.9em;
+        border-radius: 10em;
+        color: #000;
+}
+
+#intro {
+        margin: 3em 0;
 }
  
 @media print, screen and (max-width: 640px) {
