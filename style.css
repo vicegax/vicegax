@@ -1,4 +1,10 @@
-*, :after, :before {
+@font-face {
+        font-family: 'Rokkitt';
+        src: url('fonts/Rokkitt-Regular.ttf');
+        font-weight: normal;
+}
+
+* {
         box-sizing: border-box
 }
 
@@ -11,7 +17,7 @@ html {
 
 body {
         background-color: #fff;
-        color: #49647e;
+        color: #37526c;
         margin: 0;
         padding: 0;
         font-size: 1rem;
@@ -21,26 +27,63 @@ body {
 
 a {
         text-decoration: none;
-        color: #62D9FF;
+        color: #00c1ff;
         background-color: transparent;
 }
 
 a:hover {
-        color: #a8e7fb
+        color: #62D9FF;
         text-decoration: underline;
+}
+
+h1, h2, h3 {
+        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+        font-size: 1.3rem;
+        color: #00c1ff;
+}
+
+h2 {
+        font-size: 1.1rem;
+}
+
+h3 {
+        font-size: 0.9rem;
+        padding: 0.4em 2em;
+        background-color: #62D9FF;
+        width: auto;
+        display: inline-block;
+        border-radius: 0.9em;
+        color: #000000;
+        margin-bottom: 0;
 }
 
 #centred_content {
         width: 640px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 60px;
         border: 0;
 }
 
 #heading {
         width: 100%;
         text-align: center;
-        margin-top: 4em;
+        margin: 6em 0 4em 0;
+}
+
+#footer {
+        text-align: center;
+        font-size: 0.8rem;
+        color: #68849f;
+        margin: 6em 0 3em 0;
+}
+
+#footer > hr {
+        border-color: #62D9FF;
+        border-style: dotted;
+        margin-bottom: 3em;
 }
 
 @media print, screen and (max-width: 640px) {
