@@ -51,13 +51,14 @@ h2 {
 
 h3 {
         font-size: 0.9rem;
-        padding: 0.4em 2em;
+        padding: 0.45em 0 0.45em 1.2em;
         background-color: #62D9FF;
-        width: auto;
+        width: 180px;
         display: inline-block;
-        border-radius: 0.9em;
+        border-radius: 3em;
         color: #000000;
         margin-bottom: 0;
+        margin-left: -1.2em;
 }
 
 #centred_content {
@@ -76,14 +77,14 @@ h3 {
 #footer {
         text-align: center;
         font-size: 0.8rem;
-        color: #68849f;
-        margin: 6em 0 3em 0;
+        color: #859fb9;
+        margin: 5em 0 3em 0;
 }
 
 #footer > hr {
         border-color: #62D9FF;
         border-style: dotted;
-        margin-bottom: 3em;
+        margin-bottom: 2em;
 }
 
 @media print, screen and (max-width: 640px) {
@@ -91,9 +92,14 @@ h3 {
                 word-wrap: break-word;
         }
         
+        h3 {
+                margin-left: -10px;
+        }
+        
         #centred_content {
                 width: auto;
                 margin: 0;
+                padding: 0 20px;
         }
 }
         
