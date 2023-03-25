@@ -143,6 +143,7 @@ h3 {
         font-size: 0.75rem;
         font-weight: bold;
         border-radius: 6px;
+        white-space: nowrap;
 }
 
 hr.separator {
