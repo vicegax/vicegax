@@ -119,13 +119,14 @@ h3 {
 }
 
 .app > #app_name {
-        margin: 3px 0 0 0.5em;
         font-weight: bold;
         color: black;
         margin-left: -2.4em;
         background-color: rgba(255, 89, 238, 0.15);
         border-radius: 2em;
-        padding: 0.5em 1.5em 0.5em 3em;
+        padding: 14px 0 0 50px;
+        height: 44px;
+        width: 240px;
 }
 
 .app:hover {
