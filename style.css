@@ -69,14 +69,17 @@ h2 {
 }
 
 h3 {
-        font-size: 1rem;
-        padding: 0.45em 0 0.35em 1.2em;
-        background-color: #62D9FF;
-        width: 220px;
+        font-size: 1.2rem;
+        padding: 0.5em 0 0.5em 0;
+        margin-left: 15%;
+        background-color: #c2efff;
+        width: 70%;
+        text-align: center;
         display: inline-block;
         border-radius: 3em;
         color: #000000;
         margin-bottom: 0;
+        font-weight: 500;
 }
 
 #centred_content {
@@ -108,33 +111,41 @@ h3 {
         font-weight: bold;
 }
 
-.app {
-        display: flex;
+#apps {
+        display: inline-block;
+        width: 100%;
+        align-content: center;
         align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 20px 0 20px 0;
+}
+
+.app {
+        display: inline-block;
+        width: 48%;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 1.5em 0 1.5em 0;
+        line-height: 0.9;
 }
 
 .app > #app_icon {
-        margin: 0 0 2px 0;
+        width: 85px;
+        height: 85px;
         z-index: 1;
 }
 
 .app > #app_name {
-        font-weight: bold;
+        font-size: 0.9em;
+        font-weight: 500;
         color: black;
-        margin-left: -2.4em;
-        background-color: rgba(255, 89, 238, 0.15);
-        border-radius: 2em;
-        padding: 14px 0 0 50px;
-        height: 44px;
-        width: 240px;
 }
 
 .app:hover {
         text-decoration: none;
-}
-
-.app:hover > #app_name {
-        background-color: #ff59ee;
 }
 
 .tag {
