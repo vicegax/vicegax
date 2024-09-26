@@ -132,13 +132,13 @@ h3 {
         line-height: 0.9;
 }
 
-.app > #app_icon {
+.app > .app_icon {
         width: 85px;
         height: 85px;
         z-index: 1;
 }
 
-.app > #app_name {
+.app > .app_name {
         font-size: 0.9em;
         font-weight: 500;
         color: black;
