@@ -36,7 +36,7 @@
 	
 	// Prompt
 	document.querySelector("#prompt").addEventListener("click", event => {
-		var result = confirm("do you want to continue?");
+		var result = prompt("what is your name?", "pumpkin");
 		if (result != undefined) {
 			document.querySelector("#promptResult").innerHTML = result;
 		}
