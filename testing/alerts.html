@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<script>
+			// Alert;
+			document.querySelector("#alert").addEventListener("click", event => {
+				alert("hello world!");
+			}
+			
+			// Confirm
+			document.querySelector("#confirm").addEventListener("click", event => {
+				var result = confirm("do you want to continue?");
+				if (result) {
+					document.querySelector("#confirmResult").innerHTML = "accept";
+				} else {
+					document.querySelector("#confirmResult").innerHTML = "cancel";
+				}
+			}
+			
+			// Prompt
+			document.querySelector("#prompt").addEventListener("click", event => {
+				var result = confirm("do you want to continue?");
+				if (result != undefined) {
+					document.querySelector("#promptResult").innerHTML = result;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<form>
+			<input type="button" value="alert" id="alert" />
+			<input type="button" value="confirm" id="confirm" />
+			
+			<div id="confirmResult">
+				Not confirmed yet!
+			</div>
+			
+			<input type="button" value="prompt" id="prompt" />
+			
+			<div id="promptResult">
+				Not prompted yet!
+			</div>
+			
+			<input type="file" name="your image" accept="image/png, image/jpeg" />
+		</form>
+	</body>
+</html>
