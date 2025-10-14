@@ -2,24 +2,27 @@
 	<body>
 		<form>
 			<input type="button" value="alert" id="alert" />
+			<hr >
 			<input type="button" value="confirm" id="confirm" />
-			
 			<div id="confirmResult">
 				Not confirmed yet!
 			</div>
-			
+			<hr >
 			<input type="button" value="prompt" id="prompt" />
 			
 			<div id="promptResult">
 				Not prompted yet!
 			</div>
-			
+			<hr >
 			<input type="file" name="your image" accept="image/png, image/jpeg" />
+			
+			<hr >
+			<input type="button" value="close" id="close" />
 		</form>
 	</body>
 </html>
 <script>
-	// Alert;
+	// Alert
 	document.querySelector("#alert").addEventListener("click", event => {
 		alert("hello world!");
 	});
@@ -40,5 +43,10 @@
 		if (result != undefined) {
 			document.querySelector("#promptResult").innerHTML = result;
 		}
+	});
+	
+	// Close
+	document.querySelector("#close").addEventListener("click", event => {
+		window.close();
 	});
 </script>
