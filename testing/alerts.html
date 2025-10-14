@@ -4,7 +4,7 @@
 			// Alert;
 			document.querySelector("#alert").addEventListener("click", event => {
 				alert("hello world!");
-			}
+			});
 			
 			// Confirm
 			document.querySelector("#confirm").addEventListener("click", event => {
@@ -14,7 +14,7 @@
 				} else {
 					document.querySelector("#confirmResult").innerHTML = "cancel";
 				}
-			}
+			});
 			
 			// Prompt
 			document.querySelector("#prompt").addEventListener("click", event => {
@@ -22,7 +22,7 @@
 				if (result != undefined) {
 					document.querySelector("#promptResult").innerHTML = result;
 				}
-			}
+			});
 		</script>
 	</head>
 	<body>
