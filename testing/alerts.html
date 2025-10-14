@@ -17,6 +17,12 @@
 			<input type="file" name="your image" accept="image/png, image/jpeg" />
 			
 			<hr >
+			<input type="button" value="open" id="open" />
+			
+			<hr >
+			<input type="button" value="open _blank" id="openBlank" />
+			
+			<hr >
 			<input type="button" value="close" id="close" />
 		</form>
 	</body>
@@ -43,6 +49,16 @@
 		if (result != undefined) {
 			document.querySelector("#promptResult").innerHTML = result;
 		}
+	});
+	
+	// Open
+	document.querySelector("#open").addEventListener("click", event => {
+		window.open(window.location.href);
+	});
+	
+	// Open Blank
+	document.querySelector("#openBlank").addEventListener("click", event => {
+		window.open(window.location.href, "_blank");
 	});
 	
 	// Close
