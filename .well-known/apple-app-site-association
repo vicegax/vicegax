@@ -13,7 +13,14 @@
 						"exclude": true
 					},
 					{
-						"/": "/Images/*"
+						"/": "/images/*",
+						"exclude": true
+					},
+					{
+						"/": "/app/Images"
+					},
+					{
+						"/": "/app/Images/*"
 					}
 			   ]
 			}
