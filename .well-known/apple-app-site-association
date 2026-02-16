@@ -1,0 +1,22 @@
+{
+	"applinks": {
+		"details": [
+			{
+				"appIDs": [ "B9D93A2689.com.vicegax.Images" ],
+				"components": [
+					{
+						"#": "Privacy",
+						"exclude": true
+					},
+					{
+						"/": "/apps/*",
+						"exclude": true
+					},
+					{
+						"/": "/Images/*"
+					}
+			   ]
+			}
+		]
+	}
+}
