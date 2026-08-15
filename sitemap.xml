@@ -44,8 +44,4 @@
     <loc>https://vicegax.com/apps/Wikimind</loc>
     <priority>0.6</priority>
   </url>
-  <url>
-    <loc>https://vicegax.com/testing/alerts</loc>
-    <priority>0.6</priority>
-  </url>
 </urlset>
