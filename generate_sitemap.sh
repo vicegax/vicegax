@@ -6,7 +6,7 @@ DOMAIN="https://vicegax.com"
 SITEMAP_FILE="sitemap.xml"
 
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" > "$SITEMAP_FILE"
-echo "<urlset xmlns=\"http://sitemaps.org\">" >> "$SITEMAP_FILE"
+echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://w3.org" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">' >> "$SITEMAP_FILE"
 
 # 1. Add the main root index.html as the homepage
 if [ -f "index.html" ]; then
